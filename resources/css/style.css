@@ -1,3 +1,114 @@
-* {
-  font-family: Poppins;
+header {
+  font-family: Roboto;
+  background-color: #2B2D42;
+  padding-left: 120px;
+  padding-bottom: 50px;
+  padding-right: 500px;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+  padding-top: 20px;
+  padding-right: 10px;
+  font-size: 16px;
+  font-family: Roboto;
+}
+
+
+li a {
+  display: block;
+  color: white;
+  border-color: #D90429;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border: 1px solid #D90429;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #D90429;
+}
+
+h1 {
+  color: #D90429;
+  font-size: 50px;
+}
+
+header p {
+  color: #EDF2F4;
+  font-size: 20px;
+  font-family: "Roboto";
+  font-weight: 100;
+}
+
+main {
+  background-color: #EDF2F4;
+}
+
+.groupheadline {
+  font-family: Ramaraja;
+  font-size: 24px;
+  color: #D90429;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.groupsubtitle {
+  font-family: Roboto;
+  color: #2B2D42;
+  font-size: 16px;
+}
+
+
+.elementgroup {
+  font-family: "Roboto";
+  color: #2B2D42;
+  padding-left: 120px;
+  padding-right: 200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 0px;
+}
+
+
+
+th {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #2B2D42;
+  color: #EDF2F4;
+  font-size: 16px;
+}
+
+td {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 16px;
+  border: 1px solid #2B2D42;
+
+
+}
+
+.codesnippet {
+  color: #D90429;
+  text-align: center;
+  font-size: 16px;
+}
+
+.element-description {
+  text-align: justify;
+  font-size: 14px;
 }

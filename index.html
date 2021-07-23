@@ -2,16 +2,124 @@
 
 <html>
   <head>
-    <title>Cheatsheet</title>
-    <link href="./resources/css/style.css" rel="stylesheet" type="text/css">
-  </head>
+        <title>HTML Cheatsheet</title>
+        <link href="./resources/css/style.css" rel="stylesheet" type="text/css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ramaraja&family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+      </head>
 
-<body>
-  <h2>HTML</h2>
-  <h3>Structuring an HTML file</h3>
-  <h4>The different elements</h4>
-  <ul>
-    <li><h5>"<head>" Head Element</h5></li>
-</body>
+    <body>
+      <header>
+        <div class="overlay">
+        <nav>
+          <ul>
+            <li><a href="#mainroot">Main Root</a></li>
+            <li><a href="#metadata">Metadata</a></li>
+          </ul>
+        </nav>
+        <h1><code>&lthtml elements&gt</code></h1>
+        <p>This page lists all the HTML elements, which are created using tags. They are grouped by function to help you find what you have in mind easily.</p>
+        </div>
+      </header>
 
-</html>
+      <main>
+
+        <section class="elementgroup">
+
+          <div>
+            <h4 class="groupheadline" id="mainroot">Main Root</h4>
+          </div>
+
+          <div class="elementtable">
+
+            <table>
+              <tr>
+                <th>Element</th>
+                <th>Description</th>
+              </tr>
+              <tr>
+                <td><code class="codesnippet">&lthtml&gt</code></td>
+                <td><p class="element-description">The HTML element represents the root (top-level element) of an HTML document, so it is also referred to as the root element. All other elements must be descendants of this element.</p></td>
+              </tr>
+            </table>
+
+          <div>
+
+        </section>
+
+        <section class="elementgroup" id="Metadata">
+
+          <div>
+            <h4 class="groupheadline">Document Metadata</h4>
+            <p class="groupsubtitle">Metadata contains information about the page. This includes information about styles, scripts and data to help software (search engines, browsers, etc.) use and render the page. Metadata for styles and scripts may be defined in the page or link to another file that has the information. </p>
+          </div>
+
+          <div class="elementtable">
+
+            <table>
+              <tr>
+                <th>Element</th>
+                <th>Description</th>
+              </tr>
+              <tr>
+                <td><code class="codesnippet">&ltbase&gt</code></td>
+                <td><p class="element-description">The base HTML element specifies the base URL to use for all relative URLs in a document. There can be only one <base> element in a document.</p></td>
+              </tr>
+              <tr>
+                <td><code class="codesnippet">&lthead&gt</code></td>
+                <td><p class="element-description">The head HTML element contains machine-readable information (metadata) about the document, like its title, scripts, and style sheets.</p></td>
+              </tr>
+              <tr>
+                <td><code class="codesnippet">&ltlink&gt</code></td>
+                <td><p class="element-description">The link HTML element specifies relationships between the current document and an external resource. This element is most commonly used to link to CSS, but is also used to establish site icons (both "favicon" style icons and icons for the home screen and apps on mobile devices) among other things.</p></td>
+              </tr>
+              <tr>
+                <td><code class="codesnippet">&ltmeta&gt</code></td>
+                <td><p class="element-description">The meta HTML element represents Metadata that cannot be represented by other HTML meta-related elements, like base, link, script, style or title.</p></td>
+              </tr>
+              <tr>
+                <td><code class="codesnippet">&ltstyle&gt</code></td>
+                <td><p class="element-description">The style HTML element contains style information for a document, or part of a document. It contains CSS, which is applied to the contents of the document containing the style element.</p></td>
+              </tr>
+              <tr>
+                <td><code class="codesnippet">&lttitle&gt</code></td>
+                <td><p class="element-description">The title HTML element defines the document's title that is shown in a Browser's title bar or a page's tab. It only contains text; tags within the element are ignored.</p></td>
+              </tr>
+            </table>
+
+          <div>
+
+        </section>
+
+        <section class="elementgroup">
+
+          <div>
+            <h4 class="groupheadline">Element Group</h4>
+            <p class="groupsubtitle">This is the element group subtitle</p>
+          </div>
+
+          <div class="elementtable">
+
+            <table>
+              <tr>
+                <th>Element</th>
+                <th>Description</th>
+              </tr>
+              <tr>
+                <td><code class="codesnippet">&ltbody&gt</code></td>
+                <td><p class="element-description">This is the element description</p></td>
+              </tr>
+            </table>
+
+          <div>
+
+        </section>
+
+      </main>
+
+
+
+    </body>
+
+    </html>
